@@ -23,8 +23,11 @@ const underlineStyle = {
 
 const Hero = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-[25px] px-[13px]'>
-      <div className="flex flex-col gap-6 w-full items-center">
+    <div className='flex flex-col justify-center items-center gap-[35px] px-[13px] py-16 bg-Ellipse1 bg-cover bg-center absolute' >
+      <div className="flex flex-col gap-6 w-full items-center relative">
+        <div className='absolute top-[169px] right-[316px] w-[242px] h-[242px] blur-md bg-Ellipse2 bg-cover'></div>
+        <div className='absolute top-[189px] left-[315px] w-[242px] h-[242px] blur-md bg-Ellipse3 bg-cover'></div>
+
         <div className="text-center text-4xl font-['Outfit'] font-semibold text-[#e0e0e0]">
           Write better
           <br />
