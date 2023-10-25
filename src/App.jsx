@@ -3,7 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
 import Results from "./components/Results";
-import Describe from "./components/Describe";
+import Image from "./components/Image";
 import Result2 from "./components/Result2";
 export default function App() {
   return (
@@ -13,6 +13,14 @@ export default function App() {
       <TrustedBy />
       <Results />
       <Result2 />
+      <div className="mt-8">
+        <h1 className="text-gray-300 text-center font-[Outfit] text-[33px] font-semibold">
+          Mixland helps you
+          <br />
+          build beautiful website
+        </h1>
+      </div>
+      <Image />
     </div>
   )
 }

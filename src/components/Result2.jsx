@@ -15,7 +15,9 @@ const Result2 = () => {
             </div>
 
             <div className='pl-8 pr-16 '>
-                <Describe />
+                <Describe text='Write what you want to
+convey through clear,&
+authentic writing' />
                 <div className='pt-8'>
                     <Button text='Start 14 days free trial' />
                 </div>

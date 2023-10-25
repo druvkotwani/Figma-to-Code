@@ -20,7 +20,9 @@ const Results = () => {
             </div>
 
             <div className='pl-8 pr-16 '>
-                <Describe />
+                <Describe text='Create content efficiently
+                and quickly with great AI
+                writing tools'/>
                 <div className='pt-8'>
                     <Button text='Start 14 days free trial' />
                 </div>
