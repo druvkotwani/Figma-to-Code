@@ -41,7 +41,7 @@ const Testimonial = () => {
         <div className="bg-[#252835] flex flex-col justify-center gap-10 w-full px-8 py-[113px]">
             <div className="flex flex-col justify-between gap-8">
                 {testimonialsCardContent.map((testimonial, index) => (
-                    <TwitterCard key={index} name={testimonial.name} username={testimonial.username} hashtag={testimonial.hashtag} text={testimonial.content} />
+                    <TwitterCard key={index} name={testimonial.name} username={testimonial.username} hashtag={testimonial.hashtag} text={testimonial.content} index={index} />
                 ))}
             </div>
 

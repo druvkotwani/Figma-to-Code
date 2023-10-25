@@ -1,11 +1,13 @@
 import React from 'react'
 
-const TwitterCard = ({ name, username, image, text, hashtag }) => {
+
+
+const TwitterCard = ({ name, username, index, text, hashtag }) => {
     return (
         <div className="bg-white flex flex-col justify-center gap-4 w-full px-4 py-3">
             <div className="flex flex-row mr-4 gap-10 items-start">
                 <div className="flex flex-row gap-4 w-[208px] items-start">
-                    <img src="" id="Ellipse" className="w-10 shrink-0" />
+                    <img src={`https://i.pravatar.cc/48?u=${index}`} id="Ellipse" className="w-10 rounded-[50%] " />
                     <div className="flex flex-col w-40 items-start">
                         <div className="text-center text-base font-['Inter'] font-bold text-[#404040]">
                             {name}
