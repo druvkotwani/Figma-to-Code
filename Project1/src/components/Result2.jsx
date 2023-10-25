@@ -5,7 +5,7 @@ const Result2 = () => {
     return (
         <div className='inline-flex flex-col justify-center items-center gap-[40px] '>
 
-            <div className=' w-full mt-16 pl-5 pr-8'>
+            <div className='pl-5 mt-16 pr-8'>
                 <div className="relative flex flex-col justify-end items-end ">
                     <img
                         src="https://file.rendit.io/n/8hP4XrPpIgRq7iwzNrdq.svg"
