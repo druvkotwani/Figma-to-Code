@@ -1,5 +1,6 @@
 import React from 'react'
 import TwitterCard from './TwitterCard';
+import Describe2 from './Describe2';
 
 const testimonialsCardContent = [
     {
@@ -38,16 +39,19 @@ const testimonialsCardContent = [
 
 const Testimonial = () => {
     return (
-        <div className="bg-[#252835] flex flex-col justify-center gap-10 w-full px-8 py-[113px]">
+
+        <div className="bg-[#252835] flex flex-col justify-center gap-10 w-full px-8 py-[32px]">
+
+            <Describe2 text="What our customers are saying" />
+
+
             <div className="flex flex-col justify-between gap-8">
                 {testimonialsCardContent.map((testimonial, index) => (
                     <TwitterCard key={index} name={testimonial.name} username={testimonial.username} hashtag={testimonial.hashtag} text={testimonial.content} index={index} />
                 ))}
             </div>
-
-
-
         </div>
+
     )
 }
 

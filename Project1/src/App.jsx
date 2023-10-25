@@ -7,6 +7,7 @@ import Image from "./components/Image";
 import Result2 from "./components/Result2";
 import ToggleSection from "./components/ToggleSection";
 import Testimonial from "./components/Testimonial";
+import CardSection from "./components/CardSection";
 export default function App() {
   return (
     <div className="overflow-hidden">
@@ -15,7 +16,7 @@ export default function App() {
       <TrustedBy />
       <Results />
       <Result2 />
-      <div className="mt-8">
+      <div className="mt-16">
         <h1 className="text-gray-300 text-center font-[Outfit] text-[33px] font-semibold">
           Mixland helps you
           <br />
@@ -25,6 +26,8 @@ export default function App() {
       <Image />
       <ToggleSection />
       <Testimonial />
+      <CardSection />
+
     </div>
   )
 }
