@@ -5,6 +5,7 @@ import TrustedBy from "./components/TrustedBy";
 import Results from "./components/Results";
 import Image from "./components/Image";
 import Result2 from "./components/Result2";
+import ToggleSection from "./components/ToggleSection";
 export default function App() {
   return (
     <div className="overflow-hidden">
@@ -21,6 +22,7 @@ export default function App() {
         </h1>
       </div>
       <Image />
+      <ToggleSection />
     </div>
   )
 }
