@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({ plan, price }) => {
+const Card = ({ plan, price, }) => {
     return (
         <div className="bg-[#252835] flex flex-col justify-center gap-10 w-full px-8 py-6 rounded-[30.501998901367188px]">
             <div className="flex flex-col gap-5">
@@ -39,11 +39,23 @@ const Card = ({ plan, price }) => {
                     </div>
                 </div>
             </div>
-            <div className="border-solid border-[#676767] flex flex-col justify-center h-12 shrink-0 items-center mx-px border rounded-lg">
-                <div className="text-sm font-['Inter'] font-medium text-[#e0e0e0]">
-                    Get started
-                </div>
-            </div>
+            {
+                plan === 'Standard' ? (
+                    <button className="bg-[linear-gradient(90deg,_#2b59ff_0%,#bb2bff_100%)] bg-cover bg-blend-normal bg-no-repeat flex flex-col justify-center  h-12  items-center rounded-lg">
+                        <div className="border-solid border-[#676767] flex flex-col justify-center h-12 shrink-0 items-center mx-px  rounded-lg">
+                            <p className="text-sm font-['Inter'] font-medium text-[#e0e0e0]">
+                                Get started
+                            </p>
+                        </div>
+                    </button>
+                ) : (
+                    <button className="border-solid border-[#676767] flex flex-col justify-center h-12 shrink-0 items-center mx-px border rounded-lg">
+                        <p className="text-sm font-['Inter'] font-medium text-[#e0e0e0]">
+                            Get started
+                        </p>
+                    </button>
+                )
+            }
         </div>
     )
 }
