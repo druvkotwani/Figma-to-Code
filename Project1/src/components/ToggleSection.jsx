@@ -12,7 +12,7 @@ const ToggleSection = () => {
     }
 
     return (
-        <div className='px-[26px] py-[44px]'>
+        <div className='mx-4 px-[26px] py-[44px] w-[87%]'>
             <div className="flex flex-col justify-between w-full  gap-8">
                 {Options.map((option, index) => (
                     active === index ? (
@@ -20,7 +20,7 @@ const ToggleSection = () => {
                             <Option onClick={() => handleActive(index)} option={option} />
                         </div>
                     ) : (
-                        <Option onClick={() => handleActive(index)} option={option} key={index} />
+                        <Option onClick={() => handleActive(index)} option={option} key={index} property='border' />
                     )
                 ))}
             </div>
@@ -28,11 +28,11 @@ const ToggleSection = () => {
     )
 }
 
-function Option({ option, active, onClick }) {
+function Option({ option, onClick, property }) {
     return (
-        <div className="border-solid border-[#252525] flex flex-col justify-center pl-3 h-12 shrink-0 items-start rounded-lg" onClick={onClick}>
+        <div className={`border-solid  border-[#252525] flex flex-col justify-center pl-3 h-12 shrink-0 items-start rounded-lg ${property}`} onClick={onClick} >
             <div className="font-['Inter'] font-bold text-[#e0e0e0]">{option}</div>
-        </div>
+        </div >
     );
 }
 

@@ -5,7 +5,7 @@ const Image = () => {
         <div className='px-[26px] py-[44px]'>
             <div className="flex flex-col w-full">
                 <div className="bg-[url(https://file.rendit.io/n/bRtyYrNtm7ZHNkkM4iEx.svg)] bg-cover bg-50%_50% bg-blend-normal bg-no-repeat flex flex-col gap-6 h-48 shrink-0 p-2">
-                    <div className="self-start flex flex-col mb-px gap-3 w-24 h-6 shrink-0 items-start">
+                    <div className="self-start flex flex-col mb-px gap-3 w-24 h-4 shrink-0 items-start">
                         <div className="flex flex-row gap-1 w-5 items-start">
                             <img
                                 src="https://file.rendit.io/n/zqgS5Izeg2lM4hPss8TV.svg"
