@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const Options = [' Blog headlines', 'Content rewriter', 'Product description', 'PAS copywriting formula']
+const Options = [' Blog headlines', 'Blog Intros', 'Content rewriter', 'Product description', 'PAS copywriting formula']
 
 const ToggleSection = () => {
     const [active, setActive] = useState(0);
