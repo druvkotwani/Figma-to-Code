@@ -1,20 +1,15 @@
 import React from 'react'
 import Describe from './Describe'
 import Button from './Button'
-
-const Results = () => {
+const Result2 = () => {
     return (
         <div className='inline-flex flex-col justify-center items-center gap-[40px] '>
 
             <div className=' w-full mt-16 pl-5 pr-8'>
                 <div className="relative flex flex-col justify-end items-end ">
                     <img
-                        src="https://file.rendit.io/n/BbbYofMFGMK97timZsum.svg"
-                        className="w-[268px] h-[297px] bg-[url(https://file.rendit.io/n/YSX5R7siCvNLr0SFrHg7.svg)] bg-cover bg-50%_50% bg-blend-normal bg-no-repeat absolute top-0 left-0"
-                    />
-                    <img
-                        src="https://file.rendit.io/n/VNE5sn287CPPqtAzrJGI.svg"
-                        className="relative pt-[95px]"
+                        src="https://file.rendit.io/n/8hP4XrPpIgRq7iwzNrdq.svg"
+                        className="bg-[url(https://file.rendit.io/n/Yrwzp4rlxYaaCL0zau36.svg)] bg-cover bg-50%_50% bg-blend-normal bg-no-repeat"
                     />
                 </div>
             </div>
@@ -29,4 +24,5 @@ const Results = () => {
     )
 }
 
-export default Results
+export default Result2
+
