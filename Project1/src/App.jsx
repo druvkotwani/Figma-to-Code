@@ -11,7 +11,7 @@ import CardSection from "./components/CardSection";
 import Footer from "./Footer";
 export default function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden w-[100%] mx-auto  ">
       <Navbar />
       <Hero />
       <TrustedBy />
