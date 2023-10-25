@@ -2,7 +2,7 @@ import React from 'react'
 
 const Results = () => {
     return (
-        <div className='mt-16 pl-5 pr-8'>
+        <div className='w-full mt-16 pl-5 pr-8'>
             <div className="relative flex flex-col justify-end items-end ">
                 <img
                     src="https://file.rendit.io/n/BbbYofMFGMK97timZsum.svg"
