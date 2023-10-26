@@ -7,7 +7,7 @@ const CardSection = () => {
         <div className='flex flex-col justify-center items-center gap-[45.753px]'>
 
             <div className='pt-16 px-8'>
-                <Describe2 text='Make the wise decision business' />
+                <Describe2 text='Make the wise decision for your business' />
             </div>
             <div className='pt-4 pb-8 py-8 flex flex-col justify-center items-center gap-[33.552px]'>
                 <Card plan="Basic" price="$29" />

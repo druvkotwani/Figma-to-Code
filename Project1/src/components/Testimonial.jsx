@@ -33,6 +33,12 @@ const testimonialsCardContent = [
         username: '@soroushnrz7',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
     },
+    {
+        name: "Annette Black",
+        hashtag: '#eewdnmxc',
+        username: '@soroushnrz7',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+    },
 
 
 ];
@@ -42,10 +48,10 @@ const Testimonial = () => {
 
         <div className="bg-[#252835] flex flex-col justify-center gap-10 w-full px-8 py-[32px]">
 
-            <Describe2 text="What our customers are saying" />
+            <Describe2 text="What our customers say" />
 
 
-            <div className="flex flex-col justify-between gap-8">
+            <div className="flex md:grid md:grid-cols-3 flex-col justify-between gap-8 md:w-[80%] mx-auto">
                 {testimonialsCardContent.map((testimonial, index) => (
                     <TwitterCard key={index} name={testimonial.name} username={testimonial.username} hashtag={testimonial.hashtag} text={testimonial.content} index={index} />
                 ))}
