@@ -18,7 +18,7 @@ export default function App() {
       <Results />
       <Result2 />
       <div className="mt-16">
-        <h1 className="text-gray-300 text-center font-[Outfit] text-[33px] font-semibold">
+        <h1 className="text-gray-300 leading-2 text-center font-[Outfit] md:text-4xl   text-[33px] font-semibold">
           Mixland helps you
           <br />
           build beautiful website
@@ -30,8 +30,8 @@ export default function App() {
       <CardSection />
 
 
-      <div className="md:w-[768px] lg:w-[1022px] mx-auto bg-[linear-gradient(90deg,_#2b59ff_0%,#bb2bff_100%)] bg-cover bg-50%_50% bg-blend-normal bg-no-repeat md:flex-row flex flex-col justify-center gap-[102px] w-full items-center p-8">
-        <p className="text-3xl font-['Outfit'] font-semibold text-[#e0e0e0] w-[582px]">
+      <div className="md:w-[768px] lg:w-[1052px] mx-auto bg-[linear-gradient(90deg,_#2b59ff_0%,#bb2bff_100%)] bg-cover bg-50%_50% bg-blend-normal bg-no-repeat md:flex-row flex flex-col justify-center gap-8 md:gap-[102px] w-full items-center p-8">
+        <p className="text-3xl font-['Outfit'] font-semibold text-[#e0e0e0] md:w-[582px]">
           It will help you improve your writing
           <br />& bring ideas more clearly.
         </p>

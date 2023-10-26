@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="flex flex-col justify-center gap-24 w-full py-16 px-6">
-            <div className="flex flex-row justify-between items-start mx-1">
+        <div className="md:grid md:grid-cols-2 flex flex-col justify-center md:gap-0 md:w-[90%] md:ml-auto gap-24 w-full py-16 px-6">
+            <div className="md:grid md:grid-cols-2 flex flex-row justify-between items-start mx-1">
                 <div className="flex flex-col justify-between w-16 shrink-0 h-40 items-start">
                     <div className="flex flex-col gap-4 w-16 h-12 shrink-0 items-start">
                         <div className="text-sm font-['Inter'] font-bold text-[#dcdcdc]">
@@ -43,7 +43,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row justify-between items-start mx-1">
+
+            <div className="md:grid md:grid-cols-2 flex flex-row justify-between items-start mx-1">
                 <div className="flex flex-col justify-between w-32 shrink-0 h-40 items-start">
                     <div className="flex flex-col gap-4 w-16 h-12 shrink-0 items-start">
                         <div className="text-sm font-['Inter'] font-bold text-[#dcdcdc]">
@@ -83,8 +84,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }
