@@ -17,15 +17,17 @@ export default function App() {
       <TrustedBy />
       <Results />
       <Result2 />
-      <div className="mt-16">
-        <h1 className="text-gray-300 leading-2 text-center font-[Outfit] md:text-4xl   text-[33px] font-semibold">
+      <div className="mt-16 md:mt-32 md:mb-8">
+        <h1 className="text-gray-300 leading-2 text-center font-[Outfit] md:text-5xl text-[33px] font-semibold">
           Mixland helps you
           <br />
           build beautiful website
         </h1>
       </div>
-      <Image />
-      <ToggleSection />
+      <div className="md:flex w-[90%] mx-auto md:mb-16 md:mt-8">
+        <Image />
+        <ToggleSection />
+      </div>
       <Testimonial />
       <CardSection />
 
